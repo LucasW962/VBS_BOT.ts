@@ -1,0 +1,33 @@
+{
+  "name": "bot.ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node Main.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn Main.ts"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasW962/VBS_BOT.ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasW962/VBS_BOT.ts/issues"
+  },
+  "homepage": "https://github.com/LucasW962/VBS_BOT.ts#readme",
+  "dependencies": {
+    "@types/node": "^22.15.29",
+    "discord.js": "^14.19.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
